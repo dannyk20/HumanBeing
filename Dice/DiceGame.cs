@@ -26,7 +26,7 @@ public class DiceGame : MonoBehaviour
     void Start()
     {
         
-        /*GPTAnswer=ChatGPT.Instance.getGptDice();
+        GPTAnswer=ChatGPT.Instance.getGptDice();
         numberString=Regex.Match(GPTAnswer, @"\d+").Value;
         if (int.TryParse(numberString, out int Dresult))
         {
@@ -38,7 +38,7 @@ public class DiceGame : MonoBehaviour
             // 변환 실패한 경우
             Console.WriteLine("Failed to extract a valid number.");
         }
-        */
+        
         GPTDice = 6;
         Dice_GPT.text="GPT의 주사위값: "+GPTDice.ToString();
         
